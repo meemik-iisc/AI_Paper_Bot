@@ -21,8 +21,8 @@ generation — runs locally.
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/meemik-iisc/AI_Paper_Bot.git
+cd AI_Paper_Bot
 
 conda create -n ai_paper_bot python=3.11 -y
 conda activate ai_paper_bot
