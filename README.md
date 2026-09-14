@@ -71,12 +71,15 @@ cp .env.example .env
 
 Edit `.env` with your real values:
 
+```bash
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USERNAME=your_email@gmail.com
 SMTP_PASSWORD=your_16_character_app_password
 EMAIL_FROM=your_email@gmail.com
 EMAIL_TO=your_email@gmail.com
+```
+
 
 **`.env` is in `.gitignore` and must never be committed** — it holds your
 real password. `.env.example` (the template above) is the safe, committed
@@ -145,9 +148,9 @@ crontab -e
 ```
 
 Add a line to run every day at 11:00 (adjust paths and time as needed):
-
+```bash
 0 11 * * * cd /full/path/to/paper_bot && /full/path/to/miniconda3/envs/ai_paper_bot/bin/python main.py >> /full/path/to/paper_bot/logs.txt 2>&1
-
+```
 
 Save and verify it's installed:
 
