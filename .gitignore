@@ -1,0 +1,17 @@
+# Secrets — never commit this
+.env
+
+# Generated/local data — regenerated each run, not source
+data/
+digests/
+logs.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor/OS cruft
+.vscode/
+.DS_Store

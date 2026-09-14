@@ -1,0 +1,64 @@
+{
+    "lookback_days": 3,
+    "max_results": 100,
+    "top_n": 12,
+    "minimum_score": 0.30,
+  
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.HE",
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+  
+    "keywords": {
+      "strong": [
+        "black hole",
+        "runaway black hole",
+        "dynamical friction",
+        "black-hole feedback",
+        "agn feedback",
+        "black-hole outflow",
+        "accretion",
+        "circumgalactic medium",
+        "cgm",
+        "radiative cooling",
+        "mixing layer",
+        "turbulent mixing",
+        "multiphase gas",
+        "hydrodynamic simulation",
+        "magnetohydrodynamic",
+        "mhd",
+        "adaptive mesh refinement",
+        "amr"
+      ],
+      "weak": [
+        "galaxy evolution",
+        "galactic halo",
+        "shock",
+        "outflow",
+        "feedback",
+        "numerical simulation",
+        "hydrodynamics",
+        "turbulence",
+        "cooling flow",
+        "hot gas"
+      ],
+      "negative": [
+        "exoplanet",
+        "protoplanetary disk",
+        "solar flare",
+        "helioseismology",
+        "asteroseismology",
+        "planetary system",
+        "gravitational wave detector"
+      ]
+    },
+  
+    "profile": "I work in computational astrophysics and galaxy evolution, especially black-hole environments, runaway black holes, black-hole wakes, dynamical friction, accretion, AGN and black-hole feedback, hydrodynamic and magnetohydrodynamic simulations, shocks, radiative cooling, turbulent mixing layers, multiphase gas, circumgalactic media, adaptive mesh refinement, numerical methods, and GPU/HPC astrophysical simulations.",
+  
+    "email": {
+      "enabled": true,
+      "subject_prefix": "Astro-ph digest"
+    }
+  }
